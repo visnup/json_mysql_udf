@@ -221,6 +221,7 @@ my_bool is_valid_json_member_name(
 ){
 	int unsigned i=0;
 	int unsigned j=0;
+  *length=strlen(name);
 	if(*length==0){
 		strcpy(
 			message
